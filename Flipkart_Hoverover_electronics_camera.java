@@ -27,7 +27,7 @@ public class Flipkart_Hoverover_electronics_camera {
 		
 		WebElement e4=d.findElement(By.partialLinkText("Cameras & Accessories"));
 		a1.moveToElement(e4).perform();
-		e4.click();
+		//e4.click();
 		
 		//Thread.sleep(8000);
 		WebElement e5=d.findElement(By.partialLinkText("Drone"));
