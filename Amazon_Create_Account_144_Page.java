@@ -1,4 +1,4 @@
-package package1;
+package assignments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -15,6 +15,14 @@ public class Amazon_Create_Account_144_Page {
 		name.sendKeys("Sarika");
 		WebElement id=driver.findElement(By.id("ap_phone_number"));
 		id.sendKeys("0123456789");
+		WebElement password=driver.findElement(By.id("ap_password"));
+		password.sendKeys("1234567");
+		
+		WebElement e1=driver.findElement(By.id("continue"));
+		e1.click();
+		
+		
+		
 		
 	}
 
