@@ -20,11 +20,11 @@ public class Assign_180_Login_Amazon
 		//driver.navigate();
 		
 		WebElement email=driver.findElement(By.id("ap_email"));
-		email.sendKeys("pathak.saru@gmail.com");
+		email.sendKeys("pathak.sa@gmail.com");
 		WebElement con_key=driver.findElement(By.className("a-button-input"));
 		con_key.click();
 		WebElement pass=driver.findElement(By.id("ap_password"));
-		pass.sendKeys("Amazon@2584");
+		pass.sendKeys("Aon@2584");
 		WebElement signin=driver.findElement(By.id("signInSubmit"));
 		signin.click();
 		Thread.sleep(4000);
